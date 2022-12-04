@@ -1,1 +1,1 @@
-# ICE2604-navi.github.io
+# travel-page
