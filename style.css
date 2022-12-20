@@ -75,7 +75,7 @@ p {
 
 button {
     width: 180px;
-    color: #000;
+    color: rgb(215, 213, 213);
     font-size: 12px;
     padding: 12px 0;
     background: #fff;
@@ -122,10 +122,10 @@ button {
 
 h5 {
     color: #fff;
-    text-shadow: 0 0 5px #999;
+    text-shadow: 0 0 5px rgb(112, 107, 107);
 }
 
 .card p {
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 5px rgb(185, 185, 185);
     font-size: 8px;
 }
