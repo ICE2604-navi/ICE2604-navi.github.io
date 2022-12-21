@@ -6,8 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./aboutstyle.css" />
-    <title>Homepage | Navi</title>
+    <title>About | Navi</title>
     <link rel="icon" href="/img/logo.png">
+
+    <style>
+        #live2dcanvas {
+            border: 0 !important;
+        }
+    </style>
+    <script src="L2Dwidget.0.min.js"></script>
+    <script src="L2Dwidget.min.js"></script>
 </head>
 
 <body>
@@ -73,6 +81,19 @@
 
     </div>
 </body>
+
+<script>
+    L2Dwidget.init({
+        display: {
+            superSample: 2,
+            width: 150,
+            height: 400,
+            position: "left",
+            hOffset: 0,
+            vOffset: 0,
+        },
+    });
+</script>
 
 
 </html>
